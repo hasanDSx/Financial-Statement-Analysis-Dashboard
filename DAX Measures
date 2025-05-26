@@ -11,8 +11,11 @@ Unit Sold = SUM('Dataset'[Units Sold])
 
 
 4. COGS:
-    1. COGS = SUM('Dataset'[COGS])
-    2. COGS % = DIVIDE([COGS], [Total Sales],0)
+    COGS % = 
+    VAR COGS = SUM('Dataset'[COGS])
+    VAR COGS_Per = DIVIDE(COGS, [Total Sales],0)
+RETURN
+    COGS_Per
 
 
 5. Discounts:
