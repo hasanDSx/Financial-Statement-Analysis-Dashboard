@@ -1,6 +1,5 @@
-# Financial-Statement-Analysis-Dashboard
-
 Key Metrics:
+--
 
 📌 Total Sales: $118.73M | Total Profit: $16.89M
 
@@ -12,6 +11,7 @@ Key Metrics:
 
 
 Sales Performance Highlights:
+--
 
 🔹 Top-Selling Products
 
